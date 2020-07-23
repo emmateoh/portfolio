@@ -1,8 +1,5 @@
-/*body{
-    background-image: url(./backgimage.jpg);
-    width: 100% !important ;
-    background-size: cover;
-    background-position: absolute;
-    background-repeat: no-repeat;
-    height: 100% ;
-}*/
+label{
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bolder;
+}
