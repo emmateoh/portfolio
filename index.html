@@ -5,9 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HELLO !!</title>
     <link rel="stylesheet" type="text/css" href="style/master.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-   <img src="./style/backgimage.jpg" alt=""> 
+    
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+    </nav>
+
+    <section class="hero is-primary is-small">
+        <div class="hero-body">
+          <div class="container">  
+            <h1 class="title">
+                WELCOME &nbsp; <span class="icon has-text-black w3-spin w3-large">
+                    <i class="far fa-laugh-beam fa-2x animated bounceInDown"></i>
+                </span>
+            </h1>
+            <h2 class="subtitle">
+               TO MY PAGE
+            </h2>
+          </div>
+        </div>
+      </section>
+
+
+
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,192L60,165.3C120,139,240,85,360,74.7C480,64,600,96,720,106.7C840,117,960,107,1080,85.3C1200,64,1320,32,1380,16L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+      <div class="columns">
+          <div class="column is-mobile">
+            <div class="box">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mqkywlzj" method="post">
+                    <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input class="input" type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+                    <label for="email-address">Email Address</label><br>
+                    <input class="input" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br><br>
+                    <label for="message">Message</label><br>
+                    <textarea class="textarea has-fixed-size" rows="5" name="message" id="message" placeholder="Message" required=""></textarea><br><br>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset> <br>
+                    <input class="button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="column"></div>
+        <div class="column"></div>
+    </div>
 </body>
 </html>
