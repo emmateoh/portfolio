@@ -46,7 +46,10 @@
           <div class="column is-mobile">
             <div class="box">
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mqkywlzj" method="post">
-                    
+                    <label for="full-name">Full Name</label>
+                    <input class="input" type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+                    <label for="email-address">Email Address</label><br>
+                    <input class="input" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br><br>
                     <label for="message">Message</label><br>
                     <textarea class="textarea has-fixed-size" rows="5" name="message" id="message" placeholder="Message" required=""></textarea><br>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
